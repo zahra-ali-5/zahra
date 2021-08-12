@@ -1,0 +1,33 @@
+body{
+    background: rgb(162, 219, 179) 
+ }
+
+
+.wrapper{
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    width: auto;
+    margin: 20px;
+    font-size: 1.2em;
+    color: rebeccapurple;
+}
+
+.dice-roll {
+    margin: 0 50px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+p{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(317, 32%, 9%);
+    
+}
+ img{
+     width: fit-content;
+ }
