@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="w3-container">
+        <h2>dynamic Progress bar</h2>
+        <p>example:</p>
+        <div class="w3-light-grey">
+          <progress id="playBar" class="w3-container w3-green w3-center" style="width:20%">20%</progress>
+        </div>
+        <br>
+
+        <div class="w3-light-grey">
+            <progress id="feedBar" class="w3-container w3-green w3-center" style="width:20%">20%</progress>
+          </div>
+          <br>
+
+          <div class="w3-light-grey">
+            <progress id="waterBar" class="w3-container w3-green w3-center" style="width:20%">20%</progress>
+          </div>
+          <br>
+       <!-- <button class="w3-button w3-green" onclick="move()">Click Me</button>-->
+    
+      </div>
+      <div>
+      <button class="buttons">
+          <button id = "play" onclick="play()">Play</button>
+          <button id = "feed" onclick="feed()">Feed</button>
+          <button id = "water" onclick="water()">Water</button> 
+     </button>
+    </div>
+ <!--  <p id="demo"></p>
+    <label for="file">Eating progress:</label>
+
+    <progress id="file" max="100" value="50"> 50% </progress>
+    
+    <button onclick="myFunction()">Feed</button>
+    <button name="drinkBTN">Drink</button>-->
+    <script src="pet.js"></script>
+</body>
+</html>
+<!--
+
+
+
+<body>
+    
+    <div class="cyberPet">
+      <img id="cyberPetIcon" src="./images/cat.png" alt="cyberPetIcon">
+      <div class="inputBox">
+      <input type="text" class="petName" placeholder="What's your Pet's name?">
+      </div>
+      <div class="petStatus">
+      <label for="play" id="energyStatus"> <img class="statusBarIcons" id="heartIcon" src="./images/heart.png" alt="energy"> </label>
+        <progress class="progressBar" id="energyBar" max="100" value="50">50%</progress>
+      <label for="feed" id="hungerStatus"><img class="statusBarIcons" id="foodIcon" src="./images/food.png" alt="hunger"></label>
+        <progress class="progressBar" id="hungerBar" max="100" value="50">50%</progress>
+      <label for="water" id="thirstStatus"><img class="statusBarIcons" id="waterIcon" src="./images/water.png" alt="thirst"></label>
+        <progress class="progressBar" id="thirstBar" max="100" value="50">50%</progress>
+    </div>
+      <div class="buttons">
+      <button id="play">Play</button>
+      <button id="feed">Feed</button>
+      <button id="water">Water</button>
+    </div>
+  </div>
+  </body>
+  -->
